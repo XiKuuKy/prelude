@@ -61,7 +61,7 @@
 ;; If you want to be able to M-x without meta
 (global-set-key (kbd "C-x C-m") 'smex)
 
-;; A complementary binding to the apropos-command (C-h a)
+;; A complementary binding to the apropos)-command (C-h a)
 (define-key 'help-command "A" 'apropos)
 
 ;; A quick major mode help with discover-my-major
@@ -105,7 +105,7 @@
 (global-set-key (kbd "s-.") 'avy-goto-word-or-subword-1)
 
 ;; improved window navigation with ace-window
-(global-set-key (kbd "s-w") 'ace-window)
+(global-set-key (kbd "C-w") 'ace-window)
 (global-set-key [remap other-window] 'ace-window)
 
 (provide 'prelude-global-keybindings)
