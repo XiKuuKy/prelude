@@ -1,4 +1,4 @@
-```
+#+BEGIN_SRC
  ________  ________  ________  _________  ___       ___  ___  ________  _______
 |\   __  \|\   __  \|\   ____\|\___   ___\\  \     |\  \|\  \|\   ___ \|\  ___ \
 \ \  \|\  \ \  \|\  \ \  \___|\|___ \  \_\ \  \    \ \  \\\  \ \  \_|\ \ \   __/|
@@ -7,12 +7,22 @@
    \ \__\    \ \_______\____\_\  \   \ \__\ \ \_______\ \_______\ \_______\ \_______\
     \|__|     \|_______|\_________\   \|__|  \|_______|\|_______|\|_______|\|_______|
                        \|_________|
-
-
-```
+#+END_SRC
 
 postlude is a fork of bbatsov's prelude.
 
-license
---------
+* thank you
+
+Thank you to bbatsov for his wonderful prelude setup that I am building this on.
+It's excellent and I highly recommend if you want to make your own emacs config
+to start off his prelude and build from there.
+
+* TODO
+** Create more documentation
+** Document existing modifications
+** Polish readme
+** Create splash screen
+
+
+* license
 © XiKuuKy 2020 under GPLv3

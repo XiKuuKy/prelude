@@ -29,3 +29,4 @@ prelude-cheatsheet.log
 transient/
 var/
 personal/secrets-list.el
+cache/*
