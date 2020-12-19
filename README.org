@@ -9,7 +9,17 @@
                        \|_________|
 #+END_SRC
 
-postlude is a fork of bbatsov's prelude.
+* about
+postlude is a fork of bbatsov's prelude, with less vanilla defaults using evil-mode.
+** features
+ + evil-mode by default
+ + =SPC= and =Menu= leader keys
+ + highly configurable (and meant to be fine tuned)
+ + spotify support through =counsel-spotify=
+ + ivy by default
+ + org setup with fancy bullets (=org-bullets=)
+ + no =super= key shortcuts so keyboard focused WMs work or for user's use
+ + =general.el= inclusion
 
 * thank you
 
@@ -17,11 +27,12 @@ Thank you to bbatsov for his wonderful prelude setup that I am building this on.
 It's excellent and I highly recommend if you want to make your own emacs config
 to start off his prelude and build from there.
 
-* TODO
-** Create more documentation
-** Document existing modifications
-** Polish readme
-** Create splash screen
+* TODO goals
+ [ ] Create more documentation
+ [ ] Document existing modifications
+ [ ] Polish README
+ [X] Set README as default buffer
+ [ ] Include =centaur tabs=
 
 
 * license
